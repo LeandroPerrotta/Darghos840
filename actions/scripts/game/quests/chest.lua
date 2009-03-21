@@ -152,7 +152,7 @@ local quests =
 		},		
 		[aid.ORC_KAXE] = {
 			storageId = sid.ORC_KAXE,
-			rewardId = 7750,
+			rewardId = 2430,
 			count = 1
 		},
 		[aid.ORC_KARMOR] = {
