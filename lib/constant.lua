@@ -646,13 +646,3 @@ SKILLS = {
 	[SKILL__LEVEL] = "level",
 	[SKILL__MAGLEVEL] = "magic level"
 }
-
-TEMPLE = {
-
-	QUENDOR = {x=2020 ,y=1903, z=7},
-	THORN = {x=2383 ,y=1856, z=7},
-	SALAZART = {x=2271 ,y=2686, z=7},
-	ARACURA = {x=2897 ,y=1185, z=7}
-}
-
-

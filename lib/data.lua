@@ -44,6 +44,10 @@ dofile(getDataDir() .. "lib/constant.lua")
 dofile(getDataDir() .. "lib/function.lua")
 dofile(getDataDir() .. "lib/compat.lua")
 dofile(getDataDir() .. "lib/database.lua")
-dofile(getDataDir() .. "lib/const_positions.lua")
-dofile(getDataDir() .. "lib/aids.lua")
-dofile(getDataDir() .. "lib/sids.lua")
+
+
+-- DARGHOS --
+
+dofile(getDataDir() .. "lib/game/gamelib.lua")
+
+-- END DARGHOS --
