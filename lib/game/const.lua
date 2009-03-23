@@ -6,13 +6,13 @@
 	-->> Posições de area para checagem ao login {creaturescripts/login.lua} (expulsa jogadores free de area premium)
 	areaCheck = 
 	{
-		ARACURA_START = {x=2627 ,y=1043 ,z=7}
-		ARACURA_END = {x=3097 ,y=1411 ,z=7}
+		ARACURA_START = {x=2627 ,y=1043 ,z=7},
+		ARACURA_END = {x=3097 ,y=1411 ,z=7},
 
-		NORTHREND_START = {x=1677 ,y=1026 ,z=7}
-		NORTHREND_END = {x=2103 ,y=1526 ,z=7}
+		NORTHREND_START = {x=1677 ,y=1026 ,z=7},
+		NORTHREND_END = {x=2103 ,y=1526 ,z=7},
 
-		SALAZART_START = {x=1952 ,y=2299 ,z=7}
+		SALAZART_START = {x=1952 ,y=2299 ,z=7},
 		SALAZART_END = {x=2773 ,y=2660 ,z=7}
 	}
 	

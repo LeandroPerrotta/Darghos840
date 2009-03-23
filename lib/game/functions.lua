@@ -5,7 +5,7 @@
 
 -- Verifica se o player está em area premium sendo um free account
 -- Usado em creaturescripts/login.lua
-function freeInPremiumArea(cid) then
+function freeInPremiumArea(cid)
 
 	local message = "Dear "..getCreatureName(cid)..",\nYour premium time is over!\nYou were automatically taken to the temple of Quendor City.\nContinue contributing to the Darghos Server and have a good game!\n\nYours,\nUltraXSoft Team."
 	local PremDay = getPlayerPremiumDays(cid)	
@@ -19,7 +19,7 @@ function freeInPremiumArea(cid) then
 end 
 
 -- Reproduz um efeito em torno do jogador
-function sendEnvolveEffect(cid, effect) then
+function sendEnvolveEffect(cid, effect)
 
 	doSendMagicEffect(getPlayerPosition(cid), effect)
 	doSendMagicEffect({x = getPlayerPosition(cid).x + 1, y = getPlayerPosition(cid).y + 1, z = getPlayerPosition(cid).z}, effect) 
@@ -34,7 +34,7 @@ end
 
 -- Verifica se o player possui um item no shop a receber
 -- Usado em creaturescripts/login.lua
-function itemFromShop(cid) then
+function itemFromShop(cid)
 
 	local itemshopid = getPlayerStorageValue(cid, sid.ITEM_SHOP_ID)
 	
@@ -50,13 +50,14 @@ function itemFromShop(cid) then
 		else
 		
 			presentBoxShop = doPlayerAddItem(cid, 1990, 1)
-			if doAddContainerItem(presentBoxShop, (shoplist_rows.getDataInt(item_id), shoplist_rows.getDataInt(count)) ~= LUA_ERROR then
+			if doAddContainerItem(presentBoxShop, shoplist_rows.getDataInt(item_id), shoplist_rows.getDataInt(count)) ~= LUA_ERROR then
 			
 				sendEnvolveEffect(cid, CONST_ME_ENERGYHIT)
 			
 				setPlayerStorageValue(cid, sid.ITEM_SHOP_ID, -1)
 				doPlayerPopupFYI(cid, "You received in your inventory the item purchased in our Item Shop with success!")
-				db.executeQuery("UPDATE `wb_itemshop` SET received = '1' WHERE `id` = " .. itemshopid .. ";"))
+				db.executeQuery("UPDATE `wb_itemshop` SET received = '1' WHERE `id` = " .. itemshopid .. ";")
+				
 			end
 		end		
 	end 
