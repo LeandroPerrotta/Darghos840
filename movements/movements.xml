@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
-
+	<!-- Geral Map Tiles! Quests etc -->
+	
+		<!-- BANSHEE QUEST -->
+		<movevent event="StepIn" actionid="4002" script="game/banshee.lua"/>
+		<movevent event="StepIn" actionid="4003" script="game/banshee.lua"/>
+		<movevent event="StepIn" actionid="4004" script="game/banshee.lua"/>
+		<movevent event="StepIn" actionid="4005" script="game/banshee.lua"/>
+		<movevent event="StepIn" actionid="4006" script="game/banshee.lua"/>
+		<movevent event="StepIn" actionid="4007" script="game/banshee.lua"/>
+		<movevent event="StepIn" actionid="4008" script="game/banshee.lua"/>
+		<!-- BANSHEE QUEST -->
+	
+	
 	<!-- Decaying tiles -->
 	<movevent event="StepIn" itemid="293" script="decay.lua"/>
 	<movevent event="StepIn" itemid="461" script="decay.lua"/>

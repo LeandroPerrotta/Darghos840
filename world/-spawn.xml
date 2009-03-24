@@ -6367,10 +6367,6 @@
     <monster name="Cyclops" x="-4" y="3" z="8" spawntime="60"/>
     <monster name="Cyclops" x="1" y="5" z="8" spawntime="60"/>
   </spawn>
-  <spawn centerx="2253" centery="1748" centerz="8" radius="5">
-    <monster name="Enlightened of the Cult" x="-4" y="0" z="8" spawntime="60"/>
-    <monster name="Enlightened of the Cult" x="-4" y="1" z="8" spawntime="60"/>
-  </spawn>
   <spawn centerx="2460" centery="1748" centerz="8" radius="5">
     <monster name="Ghoul" x="5" y="-5" z="8" spawntime="60"/>
     <monster name="Skeleton" x="4" y="-4" z="8" spawntime="60"/>
@@ -6398,6 +6394,10 @@
     <monster name="Acolyte Of the Cult" x="1" y="6" z="8" spawntime="60"/>
     <monster name="Enlightened of the Cult" x="-1" y="8" z="8" spawntime="60"/>
     <monster name="Enlightened of the Cult" x="10" y="8" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2253" centery="1749" centerz="8" radius="5">
+    <monster name="Enlightened of the Cult" x="-4" y="-1" z="8" spawntime="60"/>
+    <monster name="Enlightened of the Cult" x="-4" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="2430" centery="1751" centerz="8" radius="5">
     <monster name="Ghoul" x="-5" y="-3" z="8" spawntime="60"/>
@@ -12496,7 +12496,6 @@
   </spawn>
   <spawn centerx="2485" centery="1728" centerz="10" radius="5">
     <monster name="Assassin" x="1" y="-4" z="10" spawntime="10"/>
-    <monster name="Assassin" x="-4" y="0" z="10" spawntime="10"/>
     <monster name="Assassin" x="4" y="3" z="10" spawntime="10"/>
     <monster name="Assassin" x="-1" y="5" z="10" spawntime="10"/>
   </spawn>

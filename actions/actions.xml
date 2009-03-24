@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	
+	<!-- Map Actions -->
+	<action actionid="4001" script="game/dh_alavanca.lua"/>
+	
 	<!-- Quests -->
 	<action actionid="2001" script="game/quests/chest.lua"/>
 	<action actionid="2002" script="game/quests/chest.lua"/>
