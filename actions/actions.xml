@@ -3,6 +3,7 @@
 	
 	<!-- Map Actions -->
 	<action actionid="4001" script="game/dh_alavanca.lua"/>
+	<action actionid="4010" script="game/annihilator.lua"/>	
 	
 	<!-- Quests -->
 	<action actionid="2001" script="game/quests/chest.lua"/>
@@ -17,6 +18,38 @@
 	<action actionid="2010" script="game/quests/chest.lua"/>
 	<action actionid="2011" script="game/quests/chest.lua"/>
 	<action actionid="2012" script="game/quests/chest.lua"/>
+	<action actionid="2013" script="game/quests/chest.lua"/>
+	<action actionid="2014" script="game/quests/chest.lua"/>
+	<action actionid="2015" script="game/quests/chest.lua"/>
+	<action actionid="2016" script="game/quests/chest.lua"/>
+	<action actionid="2017" script="game/quests/chest.lua"/>
+	<action actionid="2018" script="game/quests/chest.lua"/>
+	<action actionid="2019" script="game/quests/chest.lua"/>
+	<action actionid="2020" script="game/quests/chest.lua"/>
+	<action actionid="2021" script="game/quests/chest.lua"/>
+	<action actionid="2022" script="game/quests/chest.lua"/>
+	<action actionid="2023" script="game/quests/chest.lua"/>
+	<action actionid="2024" script="game/quests/chest.lua"/>
+	<action actionid="2025" script="game/quests/chest.lua"/>
+	<action actionid="2026" script="game/quests/chest.lua"/>
+	<action actionid="2027" script="game/quests/chest.lua"/>
+	<action actionid="2028" script="game/quests/chest.lua"/>
+	<action actionid="2029" script="game/quests/chest.lua"/>
+	<action actionid="2030" script="game/quests/chest.lua"/>
+	<action actionid="2031" script="game/quests/chest.lua"/>
+	<action actionid="2032" script="game/quests/chest.lua"/>
+	<action actionid="2033" script="game/quests/chest.lua"/>
+	<action actionid="2034" script="game/quests/chest.lua"/>
+	<action actionid="2035" script="game/quests/chest.lua"/>
+	<action actionid="2036" script="game/quests/chest.lua"/>
+	<action actionid="2037" script="game/quests/chest.lua"/>
+	<action actionid="2038" script="game/quests/chest.lua"/>
+	<action actionid="2039" script="game/quests/chest.lua"/>
+	<action actionid="2040" script="game/quests/chest.lua"/>
+	<action actionid="2041" script="game/quests/chest.lua"/>
+	<action actionid="2042" script="game/quests/chest.lua"/>
+	<action actionid="2043" script="game/quests/chest.lua"/>
+	<action actionid="2044" script="game/quests/chest.lua"/>
 
 
 

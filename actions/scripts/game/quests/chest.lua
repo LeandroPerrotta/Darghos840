@@ -1,5 +1,10 @@
 local quests =
 	{
+		[aid.WYRMS_LIGHTLEGS] = {
+			storageId = sid.WYRMS_LIGHTLEGS,
+			rewardId = 7895,
+			count = 1
+		},		
 		[aid.HAND_AXE_ROOK] = {
 			storageId = sid.HAND_AXE_ROOK,
 			rewardId = 2380,
