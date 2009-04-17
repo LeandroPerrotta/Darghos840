@@ -75,6 +75,9 @@
     <monster name="Minotaur archer" x="-2" y="-2" z="2" spawntime="60"/>
     <monster name="Minotaur archer" x="1" y="1" z="2" spawntime="60"/>
   </spawn>
+  <spawn centerx="2149" centery="1936" centerz="2" radius="5">
+    <monster name="bugbear beorn" x="0" y="0" z="2" spawntime="60"/>
+  </spawn>
   <spawn centerx="2004" centery="2004" centerz="2" radius="5">
     <monster name="Dragon" x="0" y="0" z="2" spawntime="60"/>
   </spawn>
@@ -363,6 +366,11 @@
   <spawn centerx="2284" centery="1897" centerz="4" radius="5">
     <monster name="Cyclops" x="4" y="-1" z="4" spawntime="60"/>
     <monster name="Cyclops" x="-3" y="0" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2147" centery="1934" centerz="4" radius="5">
+    <monster name="Goblin Assassin" x="0" y="-1" z="4" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="2" y="0" z="4" spawntime="60"/>
+    <monster name="Goblin Assassin" x="3" y="0" z="4" spawntime="60"/>
   </spawn>
   <spawn centerx="2052" centery="1959" centerz="4" radius="5">
     <monster name="dragon hatchling" x="-1" y="-1" z="4" spawntime="60"/>
@@ -824,6 +832,18 @@
   <spawn centerx="2122" centery="1909" centerz="5" radius="1">
     <monster name="Orc Berserker" x="0" y="-1" z="5" spawntime="60"/>
   </spawn>
+  <spawn centerx="2159" centery="1916" centerz="5" radius="5">
+    <monster name="Goblin Scavenger" x="4" y="-5" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-4" y="-3" z="5" spawntime="60"/>
+    <monster name="Goblin" x="0" y="-3" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="3" y="-2" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-3" y="-1" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-1" y="0" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-3" y="2" z="5" spawntime="60"/>
+    <monster name="Goblin" x="4" y="2" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-1" y="3" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="1" y="4" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="1967" centery="1928" centerz="5" radius="5">
     <monster name="Minotaur mage" x="-1" y="0" z="5" spawntime="60"/>
     <monster name="Minotaur mage" x="1" y="0" z="5" spawntime="60"/>
@@ -835,6 +855,30 @@
   <spawn centerx="2031" centery="1944" centerz="5" radius="5">
     <monster name="Dragon" x="3" y="0" z="5" spawntime="60"/>
     <monster name="dragon hatchling" x="0" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2157" centery="1945" centerz="5" radius="15">
+    <monster name="Goblin Scavenger" x="2" y="-14" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="3" y="-12" z="5" spawntime="60"/>
+    <monster name="Goblin" x="6" y="-12" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="4" y="-11" z="5" spawntime="60"/>
+    <monster name="Goblin" x="1" y="-10" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="1" y="-8" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="0" y="-6" z="5" spawntime="60"/>
+    <monster name="Goblin" x="4" y="-5" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-1" y="-4" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="3" y="-4" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="6" y="-2" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-3" y="0" z="5" spawntime="60"/>
+    <monster name="Goblin" x="1" y="0" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="4" y="1" z="5" spawntime="60"/>
+    <monster name="Goblin" x="5" y="2" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-9" y="3" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-7" y="3" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-5" y="3" z="5" spawntime="60"/>
+    <monster name="Goblin Assassin" x="3" y="3" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-9" y="7" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-10" y="8" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-11" y="10" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="2051" centery="1953" centerz="5" radius="5">
     <monster name="Dragon" x="2" y="0" z="5" spawntime="60"/>
@@ -851,6 +895,21 @@
   <spawn centerx="2030" centery="1972" centerz="5" radius="5">
     <monster name="Dragon" x="-1" y="-2" z="5" spawntime="60"/>
     <monster name="Dragon" x="5" y="4" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2157" centery="1973" centerz="5" radius="10">
+    <monster name="Goblin" x="9" y="-10" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="5" y="-8" z="5" spawntime="60"/>
+    <monster name="Goblin" x="5" y="-7" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-6" y="-5" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="3" y="-5" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-4" y="-3" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-1" y="-2" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-7" y="0" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-4" y="4" z="5" spawntime="60"/>
+    <monster name="Goblin" x="0" y="4" z="5" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-2" y="5" z="5" spawntime="60"/>
+    <monster name="Goblin" x="-4" y="7" z="5" spawntime="60"/>
+    <monster name="Goblin" x="3" y="9" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="2014" centery="1979" centerz="5" radius="5">
     <monster name="Cyclops" x="0" y="1" z="5" spawntime="60"/>
@@ -1903,6 +1962,45 @@
     <monster name="Cyclops" x="0" y="-2" z="6" spawntime="60"/>
     <monster name="Cyclops" x="-2" y="1" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="2153" centery="1919" centerz="6" radius="20">
+    <monster name="Goblin Assassin" x="-8" y="-15" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-6" y="-15" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="3" y="-12" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-14" y="-10" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="5" y="-10" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="14" y="-10" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-11" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="6" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin" x="7" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="15" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin" x="16" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-12" y="-8" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-14" y="-7" z="6" spawntime="60"/>
+    <monster name="Goblin" x="6" y="-7" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-12" y="-6" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-6" y="-6" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-9" y="-5" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-4" y="-5" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="15" y="-4" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-12" y="-3" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-12" y="-1" z="6" spawntime="60"/>
+    <monster name="Goblin" x="14" y="-1" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="15" y="1" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-2" y="2" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-3" y="3" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-14" y="4" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-13" y="4" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-9" y="4" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="14" y="4" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="5" y="6" z="6" spawntime="60"/>
+    <monster name="Goblin" x="3" y="7" z="6" spawntime="60"/>
+    <monster name="Goblin" x="11" y="7" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="13" y="8" z="6" spawntime="60"/>
+    <monster name="Goblin" x="18" y="8" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="12" y="9" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="3" y="20" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="2282" centery="1923" centerz="6" radius="5">
     <monster name="Cyclops" x="2" y="-1" z="6" spawntime="60"/>
     <monster name="Cyclops" x="0" y="3" z="6" spawntime="60"/>
@@ -1995,6 +2093,78 @@
     <monster name="dragon hatchling" x="-1" y="-1" z="6" spawntime="60"/>
     <monster name="Dragon" x="2" y="2" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="2157" centery="1961" centerz="6" radius="30">
+    <monster name="Goblin Scavenger" x="17" y="-28" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="20" y="-27" z="6" spawntime="60"/>
+    <monster name="Goblin" x="19" y="-26" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="21" y="-25" z="6" spawntime="60"/>
+    <monster name="Goblin" x="22" y="-21" z="6" spawntime="60"/>
+    <monster name="Sheep" x="-23" y="-18" z="6" spawntime="60"/>
+    <monster name="Sheep" x="-18" y="-18" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="21" y="-18" z="6" spawntime="60"/>
+    <monster name="Chicken" x="-20" y="-16" z="6" spawntime="60"/>
+    <monster name="Sheep" x="-19" y="-16" z="6" spawntime="60"/>
+    <monster name="Sheep" x="-15" y="-16" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="2" y="-16" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="24" y="-16" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-22" y="-15" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-17" y="-15" z="6" spawntime="60"/>
+    <monster name="Goblin" x="22" y="-15" z="6" spawntime="60"/>
+    <monster name="Chicken" x="-25" y="-13" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-14" y="-13" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-26" y="-12" z="6" spawntime="60"/>
+    <monster name="Chicken" x="-16" y="-11" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-27" y="-10" z="6" spawntime="60"/>
+    <monster name="Sheep" x="-26" y="-9" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-15" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="22" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="24" y="-9" z="6" spawntime="60"/>
+    <monster name="Goblin" x="26" y="-9" z="6" spawntime="60"/>
+    <monster name="Sheep" x="-17" y="-8" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="0" y="-8" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-2" y="-7" z="6" spawntime="60"/>
+    <monster name="Goblin" x="7" y="-7" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-25" y="-6" z="6" spawntime="60"/>
+    <monster name="Chicken" x="-24" y="-6" z="6" spawntime="60"/>
+    <monster name="Chicken" x="-20" y="-6" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="1" y="-6" z="6" spawntime="60"/>
+    <monster name="Black Sheep" x="-20" y="-5" z="6" spawntime="60"/>
+    <monster name="Goblin" x="17" y="-5" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="2" y="-4" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="11" y="-4" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-4" y="-3" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-1" y="-3" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="19" y="-3" z="6" spawntime="60"/>
+    <monster name="Goblin" x="7" y="-2" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="17" y="-2" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="0" y="-1" z="6" spawntime="60"/>
+    <monster name="Goblin" x="25" y="0" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-8" y="1" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-7" y="1" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-5" y="2" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-7" y="3" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-24" y="4" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-18" y="5" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-12" y="5" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-19" y="6" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-16" y="6" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-29" y="8" z="6" spawntime="60"/>
+    <monster name="Goblin" x="7" y="8" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-14" y="9" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="5" y="9" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-16" y="11" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-15" y="11" z="6" spawntime="60"/>
+    <monster name="Goblin" x="9" y="12" z="6" spawntime="60"/>
+    <monster name="Goblin" x="11" y="14" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-25" y="16" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-19" y="17" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-14" y="17" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-21" y="18" z="6" spawntime="60"/>
+    <monster name="Goblin Assassin" x="-12" y="19" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-11" y="19" z="6" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="-12" y="21" z="6" spawntime="60"/>
+    <monster name="Goblin" x="-9" y="22" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="1715" centery="1962" centerz="6" radius="8">
     <monster name="Wyvern" x="4" y="-1" z="6" spawntime="60"/>
     <monster name="Wyvern" x="1" y="2" z="6" spawntime="60"/>
@@ -2015,6 +2185,7 @@
     <monster name="Cyclops" x="3" y="-2" z="6" spawntime="60"/>
     <monster name="Cyclops" x="2" y="3" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="2165" centery="1972" centerz="6" radius="5"/>
   <spawn centerx="2043" centery="1973" centerz="6" radius="5">
     <monster name="Dragon" x="-5" y="-4" z="6" spawntime="60"/>
     <monster name="dragon hatchling" x="3" y="-2" z="6" spawntime="60"/>
@@ -4343,6 +4514,17 @@
     <monster name="Minotaur" x="1" y="-2" z="7" spawntime="60"/>
     <monster name="Minotaur" x="-3" y="0" z="7" spawntime="60"/>
     <monster name="Minotaur" x="5" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2156" centery="1913" centerz="7" radius="5">
+    <monster name="Goblin Scavenger" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="Goblin" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="Goblin" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Goblin Assassin" x="3" y="-2" z="7" spawntime="60"/>
+    <monster name="Goblin Assassin" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Goblin" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Goblin Scavenger" x="2" y="4" z="7" spawntime="60"/>
+    <monster name="Goblin Assassin" x="4" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2243" centery="1916" centerz="7" radius="15">
     <monster name="Wolf" x="-10" y="-13" z="7" spawntime="60"/>
