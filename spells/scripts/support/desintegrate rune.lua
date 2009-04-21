@@ -1,8 +1,8 @@
 local function doRemoveObject(cid, pos)
-	pos.stackpos = 255
+	pos.stackpos = 1
 	local object = getThingfromPos(pos)
 
-	if(object.uid > 65535 and isCreature(object.uid) == FALSE and isMovable(object.uid) == TRUE and object.actionid == 0 and getTilePzInfo(pos) == FALSE) then
+	if(object.uid > 65535 and isCreature(object.uid) == FALSE and isMovable(object.uid) == FALSE and object.actionid == 0 and getTilePzInfo(pos) == FALSE) then
 		doRemoveItem(object.uid)
 		doSendMagicEffect(pos, CONST_ME_BLOCKHIT)
 		return LUA_NO_ERROR

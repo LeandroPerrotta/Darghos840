@@ -1,14 +1,27 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_DEATHDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MORTAREA)
-setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SUDDENDEATH)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -0.5, 0, -0.6, 0)
+
+function onGetFormulaValues(cid, level, maglevel)
+	local min = -(((level/5)+(maglevel*1.4))+10)
+	local max = -(((level/5)+(maglevel*2.1))+20)
+	return min, max
+end
+
+setCombatCallback(combat, CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 local distanceCombat = createCombatObject()
 setCombatParam(distanceCombat, COMBAT_PARAM_TYPE, COMBAT_DEATHDAMAGE)
 setCombatParam(distanceCombat, COMBAT_PARAM_EFFECT, CONST_ME_MORTAREA)
-setCombatParam(distanceCombat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SUDDENDEATH)
-setCombatFormula(distanceCombat, COMBAT_FORMULA_LEVELMAGIC, -0.5, 0, -0.6, 0)
+setCombatParam(distanceCombat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_DEATH)
+
+function onGetFormulaValues(cid, level, maglevel)
+	local min = -(((level/5)+(maglevel*1.4))+10)
+	local max = -(((level/5)+(maglevel*2.1))+20)
+	return min, max
+end
+
+setCombatCallback(distanceCombat, CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 function onCastSpell(cid, var)
 	if(variantToNumber(var) ~= 0) then

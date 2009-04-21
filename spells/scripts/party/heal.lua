@@ -14,14 +14,14 @@ setConditionParam(condition, CONDITION_PARAM_HEALTHTICKS, 2000)
 function onCastSpell(cid, var)
 	local pos = getCreaturePosition(cid)
 	if(getPlayerParty(cid) == nil) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_NOPARTYMEMBERSINRANGE)
+		doPlayerSendCancel(cid, "No party members in range.")
 		doSendMagicEffect(pos, CONST_ME_POFF)
 		return LUA_ERROR
 	end
 
 	local membersList = getPartyMembers(cid)
 	if(type(membersList) ~= 'table' or table.maxn(membersList) <= 1) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_NOPARTYMEMBERSINRANGE)
+		doPlayerSendCancel(cid, "No party members in range.")
 		doSendMagicEffect(pos, CONST_ME_POFF)
 		return LUA_ERROR
 	end
@@ -35,20 +35,20 @@ function onCastSpell(cid, var)
 
 	local tmp = table.maxn(affectedList)
 	if(tmp <= 1) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_NOPARTYMEMBERSINRANGE)
+		doPlayerSendCancel(cid, "No party members in range.")
 		doSendMagicEffect(pos, CONST_ME_POFF)
 		return LUA_ERROR
 	end
 
 	local mana = (tmp * 50)
 	if(getCreatureMana(cid) < mana) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_NOTENOUGHMANA)
+		doPlayerSendCancel(cid, "You do not have enough mana.")
 		doSendMagicEffect(pos, CONST_ME_POFF)
 		return LUA_ERROR
 	end
 
 	if(doCombat(cid, combat, var) ~= LUA_NO_ERROR) then
-		doPlayerSendDefaultCancel(cid, RETURNVALUE_NOTPOSSIBLE)
+		doPlayerSendCancel(cid, "Sorry, not possible.")
 		doSendMagicEffect(pos, CONST_ME_POFF)
 		return LUA_ERROR
 	end
@@ -61,3 +61,4 @@ function onCastSpell(cid, var)
 
 	return LUA_NO_ERROR
 end
+

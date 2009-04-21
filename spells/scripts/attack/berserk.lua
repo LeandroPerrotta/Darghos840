@@ -1,8 +1,17 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HITAREA)
-setCombatParam(combat, COMBAT_PARAM_USECHARGES, TRUE)
-setCombatFormula(combat, COMBAT_FORMULA_SKILL, 0, -90, 0.7, -50)
+
+function getSpellDamage(cid, weaponSkill, weaponAttack, attackStrength)
+	local level = getPlayerLevel(cid)
+
+	local min = -((weaponSkill+weaponAttack)*0.5+(level/5))
+	local max = -((weaponSkill+weaponAttack)*1.5+(level/5))
+
+	return min, max
+end
+
+setCombatCallback(combat, CALLBACK_PARAM_SKILLVALUE, "getSpellDamage")
 
 local area = createCombatArea(AREA_SQUARE1X1)
 setCombatArea(combat, area)

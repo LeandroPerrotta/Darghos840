@@ -1,16 +1,15 @@
-local spotsId = {384, 418, 8278, 8592}
+local ArrayRopeSpot = {384, 418, 8278}
 
 function onCastSpell(cid, var)
-	local pos = getCreaturePosition(cid)
+	local pos = getPlayerPosition(cid)
 	pos.stackpos = 0
+	local grounditem = getThingfromPos(pos)
 
-	local itemGround = getThingFromPos(pos)
-	if(isInArray(spotsId, itemGround.itemid) == TRUE) then
-		local newPos = pos
-		newPos.y = newPos.y + 1
-		newPos.z = newPos.z - 1
-
-		doTeleportThing(cid, newPos, FALSE)
+	if(isInArray(ArrayRopeSpot, grounditem.itemid) == TRUE) then
+		local newpos = pos
+		newpos.y = newpos.y + 1
+		newpos.z = newpos.z - 1
+		doTeleportThing(cid, newpos, 0)
 		doSendMagicEffect(pos, CONST_ME_TELEPORT)
 		return LUA_NO_ERROR
 	else
