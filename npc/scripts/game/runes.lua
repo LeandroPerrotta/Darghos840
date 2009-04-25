@@ -47,8 +47,7 @@ shopModule:addBuyableItem({'chameleon'}, 2291, 210, 1, 'chameleon rune')
 shopModule:addBuyableItem({'blank rune'}, 2260, 10, 1, 'blank Rune')
 shopModule:addBuyableItem({'blank rune'}, 2286, 10, 2, 'Poison Bomb')
 shopModule:addBuyableItem({'desintegrate'}, 2310, 80,  3, 'desintegreate rune')
-shopModule:addBuyableItem({'vial of blood'}, 20002, 50,  1, 'vial of blood')
-shopModule:addBuyableItem({'vial of oil'}, 20011, 50,  1, 'vial of oil')
+
 
 shopModule:addBuyableItem({'wand of vortex', 'vortex'}, 2190, 500, 'wand of vortex')
 shopModule:addBuyableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 1000, 'wand of dragonbreath')

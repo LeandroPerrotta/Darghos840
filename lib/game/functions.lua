@@ -12,7 +12,7 @@ function freeInPremiumArea(cid)
 	
 	if isInArea(getCreaturePosition(cid), areaCheck.ARACURA_START, areaCheck.ARACURA_END) or isInArea(getCreaturePosition(cid), areaCheck.NORTHREND_START, areaCheck.NORTHREND_END) or isInArea(getCreaturePosition(cid), areaCheck.SALAZART_START, areaCheck.SALAZART_END) then
 		if PremDay < 1 then
-			doTeleportThing(cid, TEMPLE.QUENDOR)
+			doTeleportThing(cid, QUENDOR)
 			doPlayerPopupFYI(cid,message)
 		end
     end

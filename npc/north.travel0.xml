@@ -5,6 +5,6 @@
     <parameters>
         <parameter key="module_travel" value="1"/>
 		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel}."/>
-        <parameter key="travel_destinations" value="quendor,1925,1865,6,210;aracura,2117,2129,6,110;"/>
+        <parameter key="travel_destinations" value="quendor,1925,1865,6,210;aracura,3005,1119,6,110;"/>
     </parameters>
 </npc>

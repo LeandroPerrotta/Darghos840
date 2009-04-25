@@ -11,8 +11,7 @@
 		<movevent event="StepIn" actionid="4007" script="game/banshee.lua"/>
 		<movevent event="StepIn" actionid="4008" script="game/banshee.lua"/>
 		<!-- BANSHEE QUEST -->
-	
-	
+			
 	<!-- Decaying tiles -->
 	<movevent event="StepIn" itemid="293" script="decay.lua"/>
 	<movevent event="StepIn" itemid="461" script="decay.lua"/>
@@ -691,4 +690,5 @@
 	<movevent event="StepIn" itemid="7952" script="swimming/south.lua"/>
 	<movevent event="StepIn" itemid="7953" script="swimming/north.lua"/>
 	<movevent event="StepIn" itemid="7954" script="swimming/north.lua"/>
+		
 </movements>

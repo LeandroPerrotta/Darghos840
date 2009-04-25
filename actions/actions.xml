@@ -2,8 +2,11 @@
 <actions>
 	
 	<!-- Map Actions -->
-	<action actionid="4001" script="game/dh_alavanca.lua"/>
+	<action actionid="4001" script="game/dh.alavanca.lua"/>
 	<action actionid="4010" script="game/annihilator.lua"/>	
+	<action actionid="4012" script="game/poi.quest/poi_grave.lua"/>
+	<action actionid="4013" script="game/poi.quest/lever.enter.lua"/>
+	<action actionid="4014" script="game/poi.quest/lever.createstair.lua"/>
 	
 	<!-- Quests -->
 	<action actionid="2001" script="game/quests/chest.lua"/>
