@@ -4,9 +4,10 @@
 	<!-- Map Actions -->
 	<action actionid="4001" script="game/dh.alavanca.lua"/>
 	<action actionid="4010" script="game/annihilator.lua"/>	
-	<action actionid="4012" script="game/poi.quest/poi_grave.lua"/>
-	<action actionid="4013" script="game/poi.quest/lever.enter.lua"/>
-	<action actionid="4014" script="game/poi.quest/lever.createstair.lua"/>
+	<action actionid="4012" script="game/poi.quest/levers/poi_grave.lua"/>
+	<action actionid="4013" script="game/poi.quest/levers/lever.enter.lua"/>
+	<action actionid="4014" script="game/poi.quest/levers/lever.createstair.lua"/>
+	<action actionid="4015" script="game/poi.quest/levers/lever.firestone.lua"/>
 	
 	<!-- Quests -->
 	<action actionid="2001" script="game/quests/chest.lua"/>

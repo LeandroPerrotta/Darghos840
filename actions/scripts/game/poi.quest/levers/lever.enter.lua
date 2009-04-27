@@ -9,9 +9,10 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		addEvent(timer, 60*1000)
 		doTransformItem(item.uid, 1946)
 		
-	elseif item.actionid == aid.POI_LEVER_ENTER and item.itemid == 1946 then
+	elseif item.actionid == aid.POI_LEVER_ENTER and item.itemid == 1946 and getStone.itemid == 0 then
 		if getGlobalStorageValue(POI_ENTER_LEVER_VALUE) == 0 then
 			doCreateItem(1304,1,stone)
+			doTransformItem(item.uid, 1945)	
 		else
 			doPlayerSendCancel(cid, "You need wait 60 seconds for create the stone again.")
 		end
