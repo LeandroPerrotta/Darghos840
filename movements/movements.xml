@@ -3,7 +3,7 @@
 	<!-- Geral Map Tiles! Quests etc -->
 		
 		<!-- POI QUEST -->
-		<movevent type="StepIn" actionid="250" event="script" value="game/poi.quest/tps.lua"/>
+		<movevent type="StepIn" actionid="2501" event="script" value="game/poi.quest/tps.lua"/>
 		<movevent type="StepIn" actionid="251" event="script" value="game/poi.quest/tps.lua"/>
 		<movevent type="StepIn" actionid="252" event="script" value="game/poi.quest/tps.lua"/>
 		<movevent type="StepIn" actionid="253" event="script" value="game/poi.quest/tps.lua"/>
@@ -12,7 +12,8 @@
 		<movevent type="StepIn" actionid="256" event="script" value="game/poi.quest/tps.lua"/>
 		<movevent type="StepIn" actionid="257" event="script" value="game/poi.quest/tps.lua"/>
 		<movevent type="StepIn" actionid="260" event="script" value="game/poi.quest/tps.lua"/>
-	
+		<movevent type="StepIn" actionid="4016" event="script" value="game/poi.quest/tps.lua"/>	
+		<movevent type="StepIn" actionid="4017" event="script" value="game/poi.quest/tps.lua"/>
 		
 		<!-- POI QUEST -->
 		

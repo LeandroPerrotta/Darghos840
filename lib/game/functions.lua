@@ -61,4 +61,5 @@ function itemFromShop(cid)
 			end
 		end		
 	end 
+	
 end 	

@@ -41,11 +41,19 @@ function onStepIn(cid, item, position, fromPosition)
 		doTeleportThing(cid, mcord.POI_DOWN_TO_CENTRAL)
 	end	
 	
+	
 	if item.actionid == aid.POI_MWALL_GO then
-		doTeleportThing(cid, mcord.POI_MWALL_GO)
+		if getPlayerItemCount(cid,getItemIdByName("holy tible")) >= 1 then
+			doTeleportThing(cid, getThingPos(uid.POI_MWALL_BACK))
+			doSendMagicEffect(getPlayerPosition(cid), 5)
+		else
+			doTeleportThing(cid, getThingPos(uid.POI_MWALL_GO))
+			doSendMagicEffect(getPlayerPosition(cid), 14)
+		end
 	end
 	
 	if item.actionid == aid.POI_MWALL_BACK then
-		doTeleportThing(cid, mcord.POI_MWALL_BACK)
+		doTeleportThing(cid, getThingPos(uid.POI_MWALL_GO))
+		doSendMagicEffect(getPlayerPosition(cid), 14)
 	end
 end

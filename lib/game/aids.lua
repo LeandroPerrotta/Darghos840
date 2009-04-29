@@ -99,7 +99,7 @@
 		
 		
 		
-		POI_MOVE_TP1			= 250,
+		POI_MOVE_TP1			= 2501,
 		POI_MOVE_TP2			= 251,
 		POI_MOVE_TP3			= 252,
 		POI_MOVE_TP4			= 253,
