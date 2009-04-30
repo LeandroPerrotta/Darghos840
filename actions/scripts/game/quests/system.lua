@@ -3,7 +3,9 @@ local specialQuests = {
 }
 
 local questsExperience = {
-	[30015] = 10000
+	[2026] = 1800000,
+	[2027] = 1000000,
+	[2028] = 4000000
 }
 
 function onUse(cid, item, fromPosition, itemEx, toPosition)

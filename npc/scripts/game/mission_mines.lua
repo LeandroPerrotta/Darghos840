@@ -13,7 +13,8 @@ function Access(cid, message, keywords, parameters, node)
 
 	local msg1 = "Congratulations, now you have access for the northrend mines! Warning, the mines is a Hell!!!!!!!"
 	local msg2 = "You need 40 shards to make the full mission for me."
-	local msg3 = "Only premium accounts can work for me."
+	local msg3 = "You already have the access for the mines, do you are crazy man?"
+	local msg4 = "Only premium accounts can work for me."
 	local itemid = getItemIdByName("shard")
 	
     if(not npcHandler:isFocused(cid)) then
@@ -21,17 +22,21 @@ function Access(cid, message, keywords, parameters, node)
     end
 
     if isPremium(cid) then
-		if getPlayerItemCount(cid,itemid) >= 40 then
-			if doPlayerRemoveItem(cid, itemid,40) then
-				selfSay(cid, msg1)
+		if getPlayerStorageValue(cid, sid.MISSION_MINES) ~= 1 then	
+			if getPlayerItemCount(cid,itemid) >= 40 then
+				if doPlayerRemoveItem(cid, itemid,40) then
+					selfSay(cid, msg1)
+					setPlayerStorageValue(cid, sid.MISSION_MINES,1)
+				else
+					selfSay(cid, msg2)
+				end
 			else
 				selfSay(cid, msg2)
 			end
 		else
-			selfSay(cid, msg2)
-		end
+			selfSay(cid, msg3)
 	else
-		selfSay(cid, msg3)
+		selfSay(cid, msg4)
 	end
 	
 	

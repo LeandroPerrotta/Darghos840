@@ -722,6 +722,9 @@
     <monster name="Beholder" x="-2" y="0" z="5" spawntime="60"/>
     <monster name="Ghoul" x="0" y="1" z="5" spawntime="60"/>
   </spawn>
+  <spawn centerx="1723" centery="1281" centerz="5" radius="2">
+    <npc name="global_mission" x="0" y="-1" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="2967" centery="1312" centerz="5" radius="5">
     <monster name="Monk" x="-2" y="1" z="5" spawntime="60"/>
   </spawn>
@@ -1255,6 +1258,18 @@
     <monster name="Dragon" x="2" y="2" z="5" spawntime="60"/>
     <monster name="Dragon" x="2" y="4" z="5" spawntime="60"/>
   </spawn>
+  <spawn centerx="2047" centery="2517" centerz="5" radius="1">
+    <npc name="djin1.yaman" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2035" centery="2518" centerz="5" radius="1">
+    <npc name="djin1.alessar" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2042" centery="2531" centerz="5" radius="1">
+    <npc name="djin2.haroun" x="0" y="-1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2035" centery="2532" centerz="5" radius="1">
+    <npc name="djin2.nahbob" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="2347" centery="2563" centerz="5" radius="5">
     <monster name="Dragon" x="0" y="-4" z="5" spawntime="60"/>
     <monster name="Dragon Hatchling" x="-2" y="0" z="5" spawntime="60"/>
@@ -1270,6 +1285,13 @@
     <monster name="Dragon Hatchling" x="1" y="-2" z="5" spawntime="60"/>
     <monster name="Dragon" x="4" y="1" z="5" spawntime="60"/>
     <monster name="Dragon" x="-3" y="4" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2233" centery="2644" centerz="5" radius="1">
+    <npc name="salazart.distance" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2204" centery="2646" centerz="5" radius="1"/>
+  <spawn centerx="2205" centery="2655" centerz="5" radius="1">
+    <npc name="salazart.magic" x="0" y="-1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="959" centery="2902" centerz="5" radius="2">
     <monster name="Poison spider" x="0" y="-1" z="5" spawntime="60"/>
@@ -1306,6 +1328,9 @@
   </spawn>
   <spawn centerx="2844" centery="1149" centerz="6" radius="5">
     <monster name="Wyvern" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2925" centery="1149" centerz="6" radius="1">
+    <npc name="aracura.joia" x="0" y="1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="3002" centery="1156" centerz="6" radius="1">
     <npc name="aracura.magic" x="1" y="0" z="6" spawntime="60"/>
@@ -2388,6 +2413,9 @@
     <monster name="Pirate Marauder" x="0" y="23" z="6" spawntime="120"/>
     <monster name="Pirate Cutthroat" x="3" y="27" z="6" spawntime="120"/>
   </spawn>
+  <spawn centerx="2267" centery="2059" centerz="6" radius="1">
+    <npc name="thaun.travel0" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="1932" centery="2072" centerz="6" radius="5">
     <monster name="Giant Spider" x="-3" y="1" z="6" spawntime="60"/>
     <monster name="Poison spider" x="1" y="4" z="6" spawntime="60"/>
@@ -2744,6 +2772,9 @@
     <monster name="Stone Golem" x="1" y="2" z="6" spawntime="60"/>
     <monster name="Stone Golem" x="-4" y="5" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="2567" centery="2356" centerz="6" radius="2">
+    <npc name="nargor.go" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="2141" centery="2360" centerz="6" radius="5">
     <monster name="Dragon" x="4" y="-2" z="6" spawntime="10"/>
     <monster name="Dragon Hatchling" x="4" y="-1" z="6" spawntime="60"/>
@@ -3060,6 +3091,9 @@
     <monster name="Dragon" x="19" y="11" z="6" spawntime="60"/>
     <monster name="Dragon" x="9" y="18" z="6" spawntime="60"/>
   </spawn>
+  <spawn centerx="2053" centery="2514" centerz="6" radius="1">
+    <npc name="djin.1" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="2036" centery="2520" centerz="6" radius="10">
     <monster name="Stone Golem" x="5" y="-7" z="6" spawntime="60"/>
     <monster name="Efreet" x="3" y="-4" z="6" spawntime="60"/>
@@ -3110,6 +3144,24 @@
   <spawn centerx="2340" centery="2586" centerz="6" radius="5">
     <monster name="Dragon" x="-3" y="3" z="6" spawntime="60"/>
     <monster name="Dragon Hatchling" x="-1" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2209" centery="2645" centerz="6" radius="1">
+    <npc name="salazart.armors" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2200" centery="2646" centerz="6" radius="1">
+    <npc name="salazart.acessorios" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2201" centery="2655" centerz="6" radius="1">
+    <npc name="salazart.food" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2209" centery="2656" centerz="6" radius="1">
+    <npc name="salazart.joia" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2141" centery="2713" centerz="6" radius="2">
+    <npc name="bless.5" x="2" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2166" centery="2719" centerz="6" radius="1">
+    <npc name="salazart.travel0" x="0" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="957" centery="2903" centerz="6" radius="2">
     <monster name="spider" x="2" y="-1" z="6" spawntime="60"/>
@@ -3173,6 +3225,12 @@
     <monster name="Ice Witch" x="-3" y="-2" z="7" spawntime="300"/>
     <monster name="Ice Witch" x="-1" y="0" z="7" spawntime="300"/>
     <monster name="Ice Witch" x="4" y="3" z="7" spawntime="300"/>
+  </spawn>
+  <spawn centerx="2976" centery="1147" centerz="7" radius="2">
+    <npc name="bless.3" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2974" centery="1154" centerz="7" radius="2">
+    <npc name="aracura.promotion" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1867" centery="1161" centerz="7" radius="20">
     <monster name="Chakoya Tribewarden" x="-6" y="-20" z="7" spawntime="60"/>
@@ -4432,14 +4490,14 @@
     <monster name="Elf" x="-3" y="1" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-1" y="2" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="2017" centery="1808" centerz="7" radius="5">
-    <monster name="Bear" x="-1" y="1" z="7" spawntime="60"/>
-  </spawn>
   <spawn centerx="2456" centery="1808" centerz="7" radius="5">
     <monster name="Elf Scout" x="-4" y="-5" z="7" spawntime="60"/>
     <monster name="Elf Scout" x="-1" y="-1" z="7" spawntime="60"/>
     <monster name="Elf" x="1" y="0" z="7" spawntime="60"/>
     <monster name="Elf" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2017" centery="1809" centerz="7" radius="2">
+    <npc name="bless.1" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1957" centery="1810" centerz="7" radius="5">
     <monster name="Bear" x="2" y="-3" z="7" spawntime="60"/>
@@ -4504,6 +4562,12 @@
     <monster name="Elder Beholder" x="-5" y="5" z="7" spawntime="60"/>
     <monster name="Beholder" x="6" y="5" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="2427" centery="1828" centerz="7" radius="2">
+    <npc name="bless.2" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2350" centery="1834" centerz="7" radius="1">
+    <npc name="thorn.joia" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="2089" centery="1836" centerz="7" radius="5">
     <monster name="Amazon" x="3" y="-3" z="7" spawntime="120"/>
     <monster name="Amazon" x="2" y="2" z="7" spawntime="120"/>
@@ -4555,6 +4619,7 @@
     <monster name="Chicken" x="-2" y="-3" z="7" spawntime="60"/>
     <monster name="Pig" x="0" y="2" z="7" spawntime="60"/>
     <monster name="Chicken" x="2" y="2" z="7" spawntime="60"/>
+    <npc name="quendor.food" x="1" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2109" centery="1856" centerz="7" radius="5">
     <monster name="Amazon" x="0" y="-1" z="7" spawntime="120"/>
@@ -4656,6 +4721,9 @@
     <monster name="spider" x="-9" y="-7" z="7" spawntime="60"/>
     <monster name="Wolf" x="9" y="-6" z="7" spawntime="60"/>
     <monster name="spider" x="13" y="-4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2003" centery="1894" centerz="7" radius="1">
+    <npc name="quendor.joia" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2010" centery="1894" centerz="7" radius="1">
     <npc name="quendor.armors" x="1" y="0" z="7" spawntime="60"/>
@@ -5088,11 +5156,17 @@
   <spawn centerx="2019" centery="2054" centerz="7" radius="5">
     <monster name="Wyvern" x="-1" y="0" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="2245" centery="2056" centerz="7" radius="6">
+    <npc name="bless.4" x="1" y="-3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1974" centery="2057" centerz="7" radius="5">
     <monster name="Giant Spider" x="-1" y="-1" z="7" spawntime="60"/>
     <monster name="Giant Spider" x="2" y="0" z="7" spawntime="60"/>
     <monster name="spider" x="-2" y="1" z="7" spawntime="60"/>
     <monster name="spider" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2400" centery="2057" centerz="7" radius="2">
+    <npc name="nargor.back" x="1" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1955" centery="2060" centerz="7" radius="5">
     <monster name="Minotaur guard" x="4" y="-5" z="7" spawntime="60"/>
@@ -5192,9 +5266,6 @@
   </spawn>
   <spawn centerx="2344" centery="2131" centerz="7" radius="1">
     <monster name="Pirate Cutthroat" x="1" y="0" z="7" spawntime="120"/>
-  </spawn>
-  <spawn centerx="2342" centery="2145" centerz="7" radius="3">
-    <npc name="pirate_travelback" x="0" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2255" centery="2234" centerz="7" radius="30">
     <monster name="Tortoise" x="-2" y="-30" z="7" spawntime="10"/>
@@ -5833,6 +5904,9 @@
     <monster name="Green Djinn" x="-2" y="-3" z="7" spawntime="10"/>
     <monster name="Green Djinn" x="4" y="4" z="7" spawntime="10"/>
   </spawn>
+  <spawn centerx="2013" centery="2510" centerz="7" radius="3">
+    <npc name="djin.2" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="2054" centery="2510" centerz="7" radius="5">
     <monster name="Green Djinn" x="4" y="-1" z="7" spawntime="10"/>
     <monster name="Green Djinn" x="-4" y="0" z="7" spawntime="10"/>
@@ -6058,10 +6132,18 @@
     <monster name="Hellfire Fighter" x="-2" y="-1" z="8" spawntime="60"/>
     <monster name="Hellfire Fighter" x="-3" y="0" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="408" centery="432" centerz="8" radius="2">
+    <monster name="Blightwalker" x="1" y="0" z="8" spawntime="60"/>
+    <monster name="Hand of Cursed Fate" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="381" centery="435" centerz="8" radius="5">
     <monster name="Diabolic Imp" x="-3" y="-2" z="8" spawntime="60"/>
     <monster name="Spectre" x="1" y="-1" z="8" spawntime="60"/>
     <monster name="Diabolic Imp" x="-1" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="417" centery="435" centerz="8" radius="2">
+    <monster name="Hand of Cursed Fate" x="-2" y="0" z="8" spawntime="60"/>
+    <monster name="Blightwalker" x="0" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="399" centery="441" centerz="8" radius="5">
     <monster name="Nightmare" x="-3" y="-2" z="8" spawntime="60"/>

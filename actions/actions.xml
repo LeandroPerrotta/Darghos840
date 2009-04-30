@@ -8,7 +8,7 @@
 	<action actionid="4013" script="game/poi.quest/levers/lever.enter.lua"/>
 	<action actionid="4014" script="game/poi.quest/levers/lever.createstair.lua"/>
 	<action actionid="4015" script="game/poi.quest/levers/lever.firestone.lua"/>
-	
+	<action actionid="4011" script="game/quara_stone.lua"/>	
 	<!-- Quests -->
 	<action actionid="2001" script="game/quests/chest.lua"/>
 	<action actionid="2002" script="game/quests/chest.lua"/>
@@ -54,6 +54,14 @@
 	<action actionid="2042" script="game/quests/chest.lua"/>
 	<action actionid="2043" script="game/quests/chest.lua"/>
 	<action actionid="2044" script="game/quests/chest.lua"/>
+	<action actionid="2045" script="game/quests/chest.lua"/>
+	<action actionid="2046" script="game/quests/chest.lua"/>
+	<action actionid="2047" script="game/quests/chest.lua"/>
+	<action actionid="2048" script="game/quests/chest.lua"/>
+	<action actionid="2049" script="game/quests/chest.lua"/>
+	<action actionid="2050" script="game/quests/chest.lua"/>
+	
+	
 
 
 

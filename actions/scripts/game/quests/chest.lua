@@ -1,5 +1,67 @@
 local quests =
 	{
+		[aid.ANIHI_SCA] = {
+			storageId = sid.ANIHI,
+			rewardId = 2431,
+			count = 1
+		},
+		[aid.ANIHI_SOV] = {
+			storageId = sid.ANIHI,
+			rewardId = 2400,
+			count = 1
+		},
+
+		[aid.ANIHI_DARM] = {
+			storageId = sid.ANIHI,
+			rewardId = 2494,
+			count = 1
+		},
+		
+		[aid.POI_AVENGUER] = {
+			storageId = sid.POI_AVENGUER,
+			rewardId = 6528,
+			count = 1
+		},
+		[aid.POI_ARBALEST] = {
+			storageId = sid.POI_AVENGUER,
+			rewardId = 5803,
+			count = 1
+		},
+		[aid.POI_ARCANE] = {
+			storageId = sid.POI_AVENGUER,
+			rewardId = 2453,
+			count = 1
+		},
+		[aid.POI_ANKH] = {
+			storageId = sid.POI_ANKH,
+			rewardId = 6561,
+			count = 1
+		},
+		[aid.POI_STUFFED] = {
+			storageId = sid.POI_STUFFED,
+			rewardId = 5791,
+			count = 1
+		},
+		[aid.POI_100PLATINUM] = {
+			storageId = sid.POI_100PLATINUM,
+			rewardId = 2152,
+			count = 100
+		},
+		[aid.POI_FROZEN] = {
+			storageId = sid.POI_FROZEN,
+			rewardId = 2361,
+			count = 1
+		},
+		[aid.POI_BACKPACK] = {
+			storageId = sid.POI_BACKPACK,
+			rewardId = 2365,
+			count = 1
+		},
+		[aid.POI_SOFTBOOTS] = {
+			storageId = sid.POI_SOFTBOOTS,
+			rewardId = 2640,
+			count = 1
+		},		
 		[aid.WYRMS_LIGHTLEGS] = {
 			storageId = sid.WYRMS_LIGHTLEGS,
 			rewardId = 7895,

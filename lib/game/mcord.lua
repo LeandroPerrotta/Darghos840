@@ -22,7 +22,9 @@
 	POI_MOVE_TP7GO				= {x=415 ,y=411 ,z=7},
 	POI_MOVE_TP8GO				= {x=413 ,y=402 ,z=7},
 	POI_TP_ERROR				= {x=411 ,y=435 ,z=7},
-
+	MINES_TP_1					= {x = 1912, y = 1229, z = 9} -- local para aonde o teleport irá levar no primeiro andar
+	MINES_TP_2					= {x = 1912, y = 1229, z = 11} -- local para aonde o teleport irá levar no segundo andar
+	MINES_TP_CREATE				= {x = 1912, y = 1230, z = 10, stackpos=1} -- posição aonde será criado/deletado o teleport do elevador
 
 	
 	

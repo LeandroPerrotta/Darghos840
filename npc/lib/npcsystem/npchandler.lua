@@ -80,7 +80,7 @@ if(NpcHandler == nil) then
 		shopItems = nil, -- They must be here since ShopModule uses "static" functions
 		messages = {
 			-- These are the default replies of all npcs. They can/should be changed individually for each npc.
-			[MESSAGE_GREET] 	= 'Welcome, |PLAYERNAME|! I have been expecting you.',
+			[MESSAGE_GREET] 	= 'Welcome, |PLAYERNAME|! How are you? What do you want?.',
 			[MESSAGE_FAREWELL] 	= 'Good bye, |PLAYERNAME|!',
 			[MESSAGE_BUY] 		= 'Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?',
 			[MESSAGE_ONBUY] 	= 'It was a pleasure doing business with you.',

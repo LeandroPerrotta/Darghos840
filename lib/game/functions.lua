@@ -2,6 +2,24 @@
  * Contem todas funções referente ao Darghos
 ]]--
 
+-- Verificação ATUAL se um player está em Area premmy, e teleporta ele para area free.
+function runPremiumSystem(cid)
+
+	local message = "Dear "..getCreatureName(cid)..",\nYour premium time is over!\nYou were automatically taken to the temple of Quendor City.\nContinue contributing to the Darghos Server and have a good game!\n\nYours,\nUltraXSoft Team."
+	
+	if isPremium(cid) then
+		if getPlayerStorageValue(cid,sid.PREMIUM_VERIFY) ~= 1 then
+			setPlayerStorageValue(cid, sid.PREMIUM_VERIFY,1)
+		end
+	else
+		if getPlayerStorageValue(cid, sid.PREMIUM_VERIFY) == 1 then
+			doPlayerPopupFYI(cid, message)
+			doTeleportThing(cid, QUENDOR)
+			doPlayerSetTown(cid, getTownId("quendor"))
+		end
+	end
+end
+
 
 -- Verifica se o player está em area premium sendo um free account
 -- Usado em creaturescripts/login.lua
