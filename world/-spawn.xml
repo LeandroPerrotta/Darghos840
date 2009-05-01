@@ -75,9 +75,7 @@
     <monster name="Minotaur archer" x="-2" y="-2" z="2" spawntime="60"/>
     <monster name="Minotaur archer" x="1" y="1" z="2" spawntime="60"/>
   </spawn>
-  <spawn centerx="2149" centery="1936" centerz="2" radius="5">
-    <monster name="bugbear beorn" x="0" y="0" z="2" spawntime="60"/>
-  </spawn>
+  <spawn centerx="2149" centery="1936" centerz="2" radius="5"/>
   <spawn centerx="2004" centery="2004" centerz="2" radius="5">
     <monster name="Dragon" x="0" y="0" z="2" spawntime="60"/>
   </spawn>
@@ -334,9 +332,8 @@
     <monster name="Winter Wolf" x="3" y="18" z="4" spawntime="60"/>
     <monster name="Polar Bear" x="-1" y="19" z="4" spawntime="60"/>
   </spawn>
-  <spawn centerx="2860" centery="1275" centerz="4" radius="5">
-    <monster name="Ghoul" x="1" y="0" z="4" spawntime="60"/>
-    <monster name="Dark Monk" x="0" y="1" z="4" spawntime="60"/>
+  <spawn centerx="2860" centery="1275" centerz="4" radius="1">
+    <npc name="global.rashid" x="0" y="1" z="4" spawntime="60"/>
   </spawn>
   <spawn centerx="2852" centery="1339" centerz="4" radius="3">
     <monster name="Witch" x="-2" y="-1" z="4" spawntime="60"/>
@@ -4006,10 +4003,10 @@
     <monster name="Wasp" x="5" y="24" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2301" centery="1724" centerz="7" radius="10">
-    <monster name="Wolf" x="-4" y="-7" z="7" spawntime="0"/>
+    <monster name="Wolf" x="-4" y="-7" z="7" spawntime="60"/>
     <monster name="Smuggler" x="7" y="-2" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="8" y="0" z="7" spawntime="60"/>
-    <monster name="Wolf" x="-4" y="3" z="7" spawntime="0"/>
+    <monster name="Wolf" x="-4" y="3" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="9" y="6" z="7" spawntime="60"/>
     <monster name="Smuggler" x="8" y="7" z="7" spawntime="60"/>
   </spawn>
@@ -4036,17 +4033,17 @@
     <monster name="Wild Warrior" x="3" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2344" centery="1725" centerz="7" radius="10">
-    <monster name="Wolf" x="-1" y="-9" z="7" spawntime="0"/>
-    <monster name="Wolf" x="9" y="-7" z="7" spawntime="0"/>
+    <monster name="Wolf" x="-1" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-7" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="-3" y="-5" z="7" spawntime="60"/>
     <monster name="Smuggler" x="-4" y="-4" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="2" y="-4" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="-8" y="-3" z="7" spawntime="60"/>
-    <monster name="Wolf" x="7" y="-1" z="7" spawntime="0"/>
+    <monster name="Wolf" x="7" y="-1" z="7" spawntime="60"/>
     <monster name="Smuggler" x="-3" y="0" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="3" y="2" z="7" spawntime="60"/>
     <monster name="Smuggler" x="-8" y="5" z="7" spawntime="60"/>
-    <monster name="Wolf" x="0" y="7" z="7" spawntime="0"/>
+    <monster name="Wolf" x="0" y="7" z="7" spawntime="60"/>
     <monster name="Wild Warrior" x="-9" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2098" centery="1729" centerz="7" radius="5">
@@ -4185,9 +4182,9 @@
     <monster name="Smuggler" x="7" y="-6" z="7" spawntime="60"/>
     <monster name="Smuggler" x="6" y="-5" z="7" spawntime="60"/>
     <monster name="Smuggler" x="7" y="-5" z="7" spawntime="60"/>
-    <monster name="Wolf" x="-2" y="0" z="7" spawntime="0"/>
-    <monster name="Wolf" x="10" y="1" z="7" spawntime="0"/>
-    <monster name="Wolf" x="-5" y="8" z="7" spawntime="0"/>
+    <monster name="Wolf" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2092" centery="1747" centerz="7" radius="5">
     <monster name="Orc Warrior" x="-1" y="-5" z="7" spawntime="60"/>
@@ -5745,7 +5742,7 @@
     <monster name="Scorpion" x="-10" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2571" centery="2450" centerz="7" radius="10">
-    <monster name="Butterfly" x="9" y="-8" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="9" y="-8" z="7" spawntime="60"/>
     <monster name="spider" x="8" y="-5" z="7" spawntime="60"/>
     <monster name="Crocodile" x="3" y="-3" z="7" spawntime="60"/>
     <monster name="spider" x="5" y="-2" z="7" spawntime="60"/>
@@ -5753,13 +5750,13 @@
     <monster name="Carniphila" x="-4" y="0" z="7" spawntime="60"/>
     <monster name="spider" x="10" y="1" z="7" spawntime="60"/>
     <monster name="Crocodile" x="-6" y="3" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="7" y="4" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="7" y="4" z="7" spawntime="60"/>
     <monster name="Bug" x="-5" y="5" z="7" spawntime="60"/>
     <monster name="Bug" x="2" y="5" z="7" spawntime="60"/>
     <monster name="spider" x="6" y="5" z="7" spawntime="60"/>
     <monster name="Bug" x="-5" y="7" z="7" spawntime="60"/>
     <monster name="spider" x="-4" y="8" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="3" y="9" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="3" y="9" z="7" spawntime="60"/>
     <monster name="spider" x="-4" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2628" centery="2452" centerz="7" radius="10">
@@ -5775,9 +5772,9 @@
     <monster name="Elephant" x="-8" y="-2" z="7" spawntime="60"/>
     <monster name="Elephant" x="3" y="-1" z="7" spawntime="60"/>
     <monster name="Bug" x="7" y="-1" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="-8" y="2" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-8" y="2" z="7" spawntime="60"/>
     <monster name="Carniphila" x="-3" y="3" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="2" y="3" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="2" y="3" z="7" spawntime="60"/>
     <monster name="spider" x="-9" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1881" centery="2454" centerz="7" radius="10">
@@ -5798,15 +5795,15 @@
   </spawn>
   <spawn centerx="2598" centery="2464" centerz="7" radius="10">
     <monster name="Lion" x="-8" y="-9" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="7" y="-6" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="7" y="-6" z="7" spawntime="60"/>
     <monster name="Carniphila" x="4" y="-5" z="7" spawntime="60"/>
     <monster name="Bug" x="-1" y="-4" z="7" spawntime="60"/>
     <monster name="Bug" x="0" y="-3" z="7" spawntime="60"/>
     <monster name="Elephant" x="7" y="-3" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-2" y="-1" z="7" spawntime="60"/>
     <monster name="spider" x="7" y="-1" z="7" spawntime="60"/>
     <monster name="spider" x="-3" y="2" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="-7" y="4" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-7" y="4" z="7" spawntime="60"/>
     <monster name="Elephant" x="-6" y="5" z="7" spawntime="60"/>
     <monster name="spider" x="-3" y="5" z="7" spawntime="60"/>
     <monster name="Carniphila" x="-2" y="6" z="7" spawntime="60"/>
@@ -5858,12 +5855,12 @@
   <spawn centerx="2571" centery="2475" centerz="7" radius="10">
     <monster name="Crocodile" x="-6" y="-9" z="7" spawntime="60"/>
     <monster name="Carniphila" x="-4" y="-3" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="-1" y="-3" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-1" y="-3" z="7" spawntime="60"/>
     <monster name="Bug" x="-6" y="-2" z="7" spawntime="60"/>
     <monster name="spider" x="-4" y="-2" z="7" spawntime="60"/>
     <monster name="Crocodile" x="9" y="0" z="7" spawntime="60"/>
     <monster name="Bug" x="-4" y="2" z="7" spawntime="60"/>
-    <monster name="Butterfly" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-1" y="2" z="7" spawntime="60"/>
     <monster name="Bug" x="8" y="3" z="7" spawntime="60"/>
     <monster name="Bug" x="5" y="5" z="7" spawntime="60"/>
     <monster name="Crocodile" x="-2" y="7" z="7" spawntime="60"/>
@@ -6181,23 +6178,23 @@
     <monster name="Demon Skeleton" x="3" y="3" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="1843" centery="1105" centerz="8" radius="30">
-    <monster name="Demoniac Skeleton" x="-13" y="-8" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-13" y="-8" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-14" y="-7" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-12" y="-7" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="9" y="-6" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="11" y="-6" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="11" y="-6" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="8" y="-5" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-5" y="3" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="-3" y="3" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-3" y="3" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-2" y="8" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="6" y="10" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="5" y="12" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="7" y="13" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="14" y="22" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="7" y="13" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="14" y="22" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="12" y="23" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-12" y="24" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="14" y="24" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="-11" y="25" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-11" y="25" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-9" y="26" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="6" y="29" z="8" spawntime="60"/>
   </spawn>
@@ -6248,38 +6245,38 @@
     <monster name="Dragon" x="3" y="29" z="8" spawntime="20"/>
   </spawn>
   <spawn centerx="1838" centery="1166" centerz="8" radius="30">
-    <monster name="Demoniac Skeleton" x="9" y="-30" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="9" y="-30" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-14" y="-29" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="-14" y="-28" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-14" y="-28" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-13" y="-27" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="11" y="-27" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-1" y="-20" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="3" y="-20" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="3" y="-20" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="1" y="-18" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="23" y="-18" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="23" y="-18" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="21" y="-17" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="22" y="-16" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="14" y="-13" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="11" y="-11" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="13" y="-11" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="13" y="-11" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-23" y="-9" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="-9" y="-9" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-9" y="-9" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-26" y="-4" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-12" y="-4" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="-26" y="-2" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-26" y="-2" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-27" y="-1" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="13" y="-1" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-13" y="0" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="4" y="0" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="10" y="0" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="10" y="0" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="6" y="1" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-15" y="2" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="-20" y="12" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="-20" y="12" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-23" y="13" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-14" y="13" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="6" y="13" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="8" y="14" z="8" spawntime="60"/>
-    <monster name="Demoniac Skeleton" x="10" y="14" z="8" spawntime="60"/>
+    <monster name="Demon Skeleton" x="10" y="14" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-17" y="15" z="8" spawntime="60"/>
     <monster name="Demon Skeleton" x="-23" y="16" z="8" spawntime="60"/>
     <monster name="Bonebeast" x="-8" y="18" z="8" spawntime="60"/>
@@ -8318,20 +8315,20 @@
   <spawn centerx="2467" centery="2377" centerz="8" radius="15">
     <monster name="Centipede" x="-8" y="-9" z="8" spawntime="60"/>
     <monster name="Centipede" x="-5" y="-8" z="8" spawntime="60"/>
-    <monster name="Butterfly" x="-10" y="-7" z="8" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-10" y="-7" z="8" spawntime="60"/>
     <monster name="Centipede" x="-12" y="-4" z="8" spawntime="60"/>
-    <monster name="Butterfly" x="2" y="-4" z="8" spawntime="60"/>
+    <monster name="Blue Butterfly" x="2" y="-4" z="8" spawntime="60"/>
     <monster name="Centipede" x="-5" y="-3" z="8" spawntime="60"/>
     <monster name="Centipede" x="4" y="-2" z="8" spawntime="60"/>
-    <monster name="Butterfly" x="-12" y="-1" z="8" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-12" y="-1" z="8" spawntime="60"/>
     <monster name="Centipede" x="9" y="0" z="8" spawntime="60"/>
     <monster name="Centipede" x="-9" y="1" z="8" spawntime="60"/>
-    <monster name="Butterfly" x="-6" y="1" z="8" spawntime="60"/>
+    <monster name="Blue Butterfly" x="-6" y="1" z="8" spawntime="60"/>
     <monster name="Centipede" x="-14" y="2" z="8" spawntime="60"/>
-    <monster name="Butterfly" x="12" y="3" z="8" spawntime="60"/>
+    <monster name="Blue Butterfly" x="12" y="3" z="8" spawntime="60"/>
     <monster name="Centipede" x="2" y="4" z="8" spawntime="60"/>
     <monster name="Centipede" x="12" y="5" z="8" spawntime="60"/>
-    <monster name="Butterfly" x="4" y="7" z="8" spawntime="60"/>
+    <monster name="Blue Butterfly" x="4" y="7" z="8" spawntime="60"/>
     <monster name="Centipede" x="5" y="9" z="8" spawntime="60"/>
     <monster name="Centipede" x="13" y="10" z="8" spawntime="60"/>
   </spawn>

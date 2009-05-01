@@ -34,7 +34,7 @@
     </attack>
 
     <attack name="fire" interval="2000" chance="30" min="-450" max="-500">
-      <attribute key="areaefect" value="redshimmer"/>
+      <attribute key="areaEffect" value="redshimmer"/>
     </attack>
 
   </attacks>

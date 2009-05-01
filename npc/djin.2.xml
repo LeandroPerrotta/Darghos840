@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Kauh'Steh" script="data/npc/scripts/game/djin_mission2.lua" walkinterval="1000" floorchange="0">
+<npc name="Kauh'Steh" script="data/npc/scripts/game/djin_missao2.lua" walkinterval="1000" floorchange="0">
     <health now="100" max="100"/>
     <look type="104" head="66" body="73" legs="121" feet="6" addons="3"/>
     <parameters>

@@ -142,6 +142,7 @@
 	<monster name="Werewolf" file="Canines/werewolf.xml"/>
 	<monster name="Winter wolf" file="Canines/winter wolf.xml"/>
 	<monster name="Wolf" file="Canines/wolf.xml"/>
+	<monster name="Husky" file="Canines/husky.xml"/>
 	
 	<!-- Chakoyas -->
 	<monster name="Chakoya Toolshaper" file="Chakoyas/chakoya toolshaper.xml"/>
@@ -538,7 +539,7 @@
 
 	<!-- Skeletons -->
 	<monster name="Betrayed Wraith" file="Skeletons/betrayed wraith.xml"/>
-	<monster name="Bone Beast" file="Skeletons/bone beast.xml"/>
+	<monster name="Bonebeast" file="Skeletons/bonebeast.xml"/>
 	<monster name="Demon Skeleton" file="Skeletons/demon skeleton.xml"/>
 	<monster name="Lost Soul" file="Skeletons/lost soul.xml"/>
 	<monster name="Pirate Skeleton" file="Skeletons/pirate skeleton.xml"/>

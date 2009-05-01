@@ -9,7 +9,8 @@ function runPremiumSystem(cid)
 	
 	if isPremium(cid) then
 		if getPlayerStorageValue(cid,sid.PREMIUM_VERIFY) ~= 1 then
-			setPlayerStorageValue(cid, sid.PREMIUM_VERIFY,1)
+			setPlayerStorageValue(cid, sid.PREMIUM_VERIFY,3)
+			doSendMagicEffect(getPlayerPosition(cid),11)
 		end
 	else
 		if getPlayerStorageValue(cid, sid.PREMIUM_VERIFY) == 1 then
