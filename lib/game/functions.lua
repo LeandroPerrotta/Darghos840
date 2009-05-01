@@ -4,18 +4,19 @@
 
 -- Verificação ATUAL se um player está em Area premmy, e teleporta ele para area free.
 function runPremiumSystem(cid)
-
+	local PremDay = getPlayerPremiumDays(cid)
 	local message = "Dear "..getCreatureName(cid)..",\nYour premium time is over!\nYou were automatically taken to the temple of Quendor City.\nContinue contributing to the Darghos Server and have a good game!\n\nYours,\nUltraXSoft Team."
 	
-	if isPremium(cid) then
-		if getPlayerStorageValue(cid,sid.PREMIUM_VERIFY) ~= 1 then
-			setPlayerStorageValue(cid, sid.PREMIUM_VERIFY,3)
+	if PremDay >= 1 then
+		if getPlayerStorageValue(cid,sid.PREMMY_VERIFY) ~= 1 then
+			setPlayerStorageValue(cid, sid.PREMMY_VERIFY,1)
 			doSendMagicEffect(getPlayerPosition(cid),11)
 		end
 	else
-		if getPlayerStorageValue(cid, sid.PREMIUM_VERIFY) == 1 then
+		if getPlayerStorageValue(cid, sid.PREMMY_VERIFY) == 1 then
 			doPlayerPopupFYI(cid, message)
 			doTeleportThing(cid, QUENDOR)
+			setPlayerStorageValue(cid, sid.PREMMY_VERIFY,0)
 			doPlayerSetTown(cid, getTownId("quendor"))
 		end
 	end
