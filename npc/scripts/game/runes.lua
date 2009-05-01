@@ -48,6 +48,7 @@ shopModule:addBuyableItem({'blank rune'}, 2260, 10, 1, 'blank Rune')
 shopModule:addBuyableItem({'blank rune'}, 2286, 10, 2, 'Poison Bomb')
 shopModule:addBuyableItem({'desintegrate'}, 2310, 80,  3, 'desintegreate rune')
 shopModule:addBuyableItem({'soulfire'}, 2308, 140,  3, 'soulfire')
+shopModule:addBuyableItem({'wild growth rune'}, 2269, 330,  2, 'wild growth rune')
 
 shopModule:addBuyableItem({'wand of vortex', 'vortex'}, 2190, 500, 'wand of vortex')
 shopModule:addBuyableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 1000, 'wand of dragonbreath')
