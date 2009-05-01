@@ -178,43 +178,43 @@
 	<monster name="Bazir" file="Custom/bazir.xml" />	
 	<monster name="Behemoth King" file="Custom/behemoth king.xml" />
 	<monster name="Behemoth Minion" file="Custom/Behemoth Minion.xml" />
-	<monster name="Dark warrior" file="dark warrior.xml" />
-	<monster name="Dark General" file="dark general.xml" />
-	<monster name="Dark Archer" file="dark archer.xml" />
-	<monster name="Dark Eye" file="dark eye.xml" />
-	<monster name="demonlegs" file="demonlegs.xml" />
-	<monster name="demonportal" file="demonportal.xml" />
-	<monster name="Durin" file="durin.xml" />
-	<monster name="Dwarf Miner" file="Dwarf Miner.xml" />
-	<monster name="ent" file="ent.xml" />
-	<monster name="Fallen Mooh'tah Master Ghar" file="Fallen Mooh'tah Master Ghar.xml" />
-	<monster name="High Inquisitor" file="High Inquisitor.xml" />
-	<monster name="Incendius" file="Incendius.xml" />
-	<monster name="Krapt-Kun" file="krapt.xml" />
-	<monster name="Krish-Katul" file="krish.xml" />
-	<monster name="Mechanical Catapult" file="Mechanical Catapult.xml" />
-	<monster name="Mirage Guardian" file="Mirage Guardian.xml" />
-	<monster name="Molten Guard" file="Molten Guard.xml" />
-	<monster name="Nergal" file="Nergal.xml" />
-	<monster name="Nosferatu" file="Nosferatu.xml" />
-	<monster name="onyxia" file="onyxia.xml" />
-	<monster name="onyxiab" file="onyxiab.xml" />
-	<monster name="orshabaalportal" file="orshabaalportal.xml" />
-	<monster name="Ragnaros" file="Ragnaros.xml" />
-	<monster name="Sand Dragon" file="sand dragon.xml" />
-	<monster name="son of ferumbras" file="son of ferumbras.xml" />
-	<monster name="Tezrian" file="Tezrian.xml" />
-	<monster name="thashi aharon" file="thashi aharon.xml" />
-	<monster name="Tutankamun" file="tutankamun.xml" />
-	<monster name="Ukobach" file="Ukobach.xml" />
-	<monster name="Uruk-hai" file="uruk.xml" />
-	<monster name="Yojamba sentinel" file="Yojamba sentinel.xml" />
-	<monster name="Yojamba snakecharmer" file="Yojamba snakecharmer.xml" />
-	<monster name="Yojamba templar" file="Yojamba Templar.xml" />
-	<monster name="Yojamba King" file="Yojamba King.xml" />
-	<monster name="Yojamba Throne" file="Yojamba Throne.xml" />
-	<monster name="Zepar" file="Zepar.xml" />
-	<monster name="Zunda-Burs" file="zunda.xml" />
+	<monster name="Dark warrior" file="Custom/dark warrior.xml" />
+	<monster name="Dark General" file="Custom/dark general.xml" />
+	<monster name="Dark Archer" file="Custom/dark archer.xml" />
+	<monster name="Dark Eye" file="Custom/dark eye.xml" />
+	<monster name="demonlegs" file="Custom/demonlegs.xml" />
+	<monster name="demonportal" file="Custom/demonportal.xml" />
+	<monster name="Durin" file="Custom/durin.xml" />
+	<monster name="Dwarf Miner" file="Custom/Dwarf Miner.xml" />
+	<monster name="ent" file="Custom/ent.xml" />
+	<monster name="Fallen Mooh'tah Master Ghar" file="Custom/Fallen Mooh'tah Master Ghar.xml" />
+	<monster name="High Inquisitor" file="Custom/High Inquisitor.xml" />
+	<monster name="Incendius" file="Custom/Incendius.xml" />
+	<monster name="Krapt-Kun" file="Custom/krapt.xml" />
+	<monster name="Krish-Katul" file="Custom/krish.xml" />
+	<monster name="Mechanical Catapult" file="Custom/Mechanical Catapult.xml" />
+	<monster name="Mirage Guardian" file="Custom/Mirage Guardian.xml" />
+	<monster name="Molten Guard" file="Custom/Molten Guard.xml" />
+	<monster name="Nergal" file="Custom/Nergal.xml" />
+	<monster name="Nosferatu" file="Custom/Nosferatu.xml" />
+	<monster name="onyxia" file="Custom/onyxia.xml" />
+	<monster name="onyxiab" file="Custom/onyxiab.xml" />
+	<monster name="orshabaalportal" file="Custom/orshabaalportal.xml" />
+	<monster name="Ragnaros" file="Custom/Ragnaros.xml" />
+	<monster name="Sand Dragon" file="Custom/sand dragon.xml" />
+	<monster name="son of ferumbras" file="Custom/son of ferumbras.xml" />
+	<monster name="Tezrian" file="Custom/Tezrian.xml" />
+	<monster name="thashi aharon" file="Custom/thashi aharon.xml" />
+	<monster name="Tutankamun" file="Custom/tutankamun.xml" />
+	<monster name="Ukobach" file="Custom/Ukobach.xml" />
+	<monster name="Uruk-hai" file="Custom/uruk.xml" />
+	<monster name="Yojamba sentinel" file="Custom/Yojamba sentinel.xml" />
+	<monster name="Yojamba snakecharmer" file="Custom/Yojamba snakecharmer.xml" />
+	<monster name="Yojamba templar" file="Custom/Yojamba Templar.xml" />
+	<monster name="Yojamba King" file="Custom/Yojamba King.xml" />
+	<monster name="Yojamba Throne" file="Custom/Yojamba Throne.xml" />
+	<monster name="Zepar" file="Custom/Zepar.xml" />
+	<monster name="Zunda-Burs" file="Custom/zunda.xml" />
 	
 	<!-- Demons -->
 	<monster name="Dark Torturer" file="Demons/dark torturer.xml"/>
