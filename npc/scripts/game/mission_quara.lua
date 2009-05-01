@@ -19,15 +19,14 @@ function Access(cid, message, keywords, parameters, node)
         return false
     end
 
-    if isPremium(cid) then
-		if getPlayerStorageValue(cid, sid.GOROMA_1) ~= 1 then
-			selfSay(cid, msg1)
+
+		if getPlayerStorageValue(cid, sid.GOROMA_STONE1) ~= 1 then
+			npcHandler:say(msg1,cid)
 			doPlayerAddItem(cid, itemid,1)
 		else
-			selfSay(cid, msg2)
+			npcHandler:say(msg2,cid)
 			setPlayerStorageValue(cid, sid.GOROMA_ENTER,1)
 		end
-    end
 
 end
 

@@ -10,7 +10,8 @@ function onThink()                npcHandler:onThink()                end
 
 
 function Access(cid, message, keywords, parameters, node)
-
+	
+	local msg1 =  "Yeeeah, you have completed the mission of djinns! Now you can enter in djinns home....HAaHAHAAHhAAhahA....."
 		
     if(not npcHandler:isFocused(cid)) then
         return false
@@ -18,7 +19,7 @@ function Access(cid, message, keywords, parameters, node)
 		
 
 		if getPlayerStorageValue(cid, sid.DJIN_QUEST_2) == 1 then
-			selfSay(cid, "Yeeeah, you have completed the mission of djinns! Now you can enter in djinns home....HAaHAHAAHhAAhahA.....")
+			npcHandler:say(msg1,cid)
 			setPlayerStorageValue(cid, sid.DJIN_QUEST_1, 1)
 		end
 

@@ -10,20 +10,22 @@ function onThink()                npcHandler:onThink()                end
 
 
 function Access(cid, message, keywords, parameters, node)
-
-		
+	
+	local msg1 = "Ok, now you need to enter in the djinns place and complete the mission, talking with my brother!"
+	local msg2 = "Wow! You have completed all missions! Now you can enter and talk with djinns of shop."
+	
     if(not npcHandler:isFocused(cid)) then
         return false
     end
 	
 
 		if getPlayerStorageValue(cid, sid.DJIN_QUEST_1) ~= 1 then
-			selfSay(cid, "Ok, you are now in my list of brave warriors! Now you need to down on teleport, in south of here, and kill all monsters! Have a good battle.")
+			npcHandler:say(msg1,cid)
 			setPlayerStorageValue(cid, sid.DJIN_QUEST_2, 1)
 		else
-			selfSay(cid, "You already have this quest.")
+			npcHandler:say(msg2,cid)
 		end
-
+	
 end
 
 keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "Ask with me about mission, and I take the mission for you."})

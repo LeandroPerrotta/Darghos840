@@ -21,26 +21,22 @@ function Access(cid, message, keywords, parameters, node)
         return false
     end
 
-    if isPremium(cid) then
+
 		if getPlayerStorageValue(cid, sid.MISSION_MINES) ~= 1 then	
 			if getPlayerItemCount(cid,itemid) >= 40 then
 				if doPlayerRemoveItem(cid, itemid,40) then
-					selfSay(cid, msg1)
+					npcHandler:say(msg1,cid)
 					setPlayerStorageValue(cid, sid.MISSION_MINES,1)
 				else
-					selfSay(cid, msg2)
+					npcHandler:say(msg2, cid)
 				end
 			else
-				selfSay(cid, msg2)
+				npcHandler:say(msg2,cid)
 			end
 		else
-			selfSay(cid, msg3)
-	else
-		selfSay(cid, msg4)
-	end
-	
-	
-	end
+			npcHandler:say(msg3,cid)
+		end
+
 
 end
 
