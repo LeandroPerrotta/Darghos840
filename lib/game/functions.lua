@@ -22,7 +22,6 @@ function runPremiumSystem(cid)
 	end
 end
 
-
 -- Verifica se o player está em area premium sendo um free account
 -- Usado em creaturescripts/login.lua
 function freeInPremiumArea(cid)
