@@ -8437,6 +8437,9 @@
   <spawn centerx="2035" centery="2392" centerz="8" radius="5">
     <monster name="Sand Dragon" x="-3" y="3" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="2389" centery="2397" centerz="8" radius="5">
+    <npc name="global.addons" x="-1" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="1993" centery="2399" centerz="8" radius="5">
     <monster name="Sand Dragon" x="-2" y="4" z="8" spawntime="60"/>
   </spawn>
