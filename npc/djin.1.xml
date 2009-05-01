@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Hab Duhz" script="data/npc/scripts/game/djin_missao2.lua" walkinterval="1000" floorchange="0">
+<npc name="Hab Duhz" script="data/npc/scripts/game/djin_missao1.lua" walkinterval="1000" floorchange="0">
     <health now="100" max="100"/>
     <look type="103" head="66" body="73" legs="121" feet="6" addons="3"/>
     <parameters>

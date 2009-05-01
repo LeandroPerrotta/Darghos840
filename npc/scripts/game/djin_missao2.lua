@@ -16,12 +16,12 @@ function Access(cid, message, keywords, parameters, node)
         return false
     end
 		
-	if isPremium(cid) then
+
 		if getPlayerStorageValue(cid, sid.DJIN_QUEST_2) == 1 then
 			selfSay(cid, "Yeeeah, you have completed the mission of djinns! Now you can enter in djinns home....HAaHAHAAHhAAhahA.....")
 			setPlayerStorageValue(cid, sid.DJIN_QUEST_1, 1)
 		end
-	end
+
 end
 
 keywordHandler:addKeyword({'help'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = "Ask with me about mission, and I take the mission for you."})
