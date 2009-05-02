@@ -38,7 +38,7 @@ function onSay(cid, words, param)
 		aol = "You dont have all blesses and your item/back not is secure, and go drop when you die."
 	end
 	
-	local message = "Here you can see if you have completed the blesses, or no.\n\nFirst Bless      = "..first.."\n\nSecond Bless      = "..second.."\n\nThird Bless      = "..third.."\n\nFourth Bless      = "..fourth.."\n\nFifth Bless      = "..fifth.."\n\nItem drop:\n"..aol..""
+	local message = "Here you can see if you have completed the blesses, or no.\n\nFirst Bless      = "..first.."(Quendor)\n\nSecond Bless      = "..second.."(Thorn)\n\nThird Bless      = "..third.."(Aracura)\n\nFourth Bless      = "..fourth.."(Thaun)\n\nFifth Bless      = "..fifth.."(Salazart)\n\nItem drop:\n"..aol..""
 	
 	doPlayerPopupFYI(cid, message)
 
