@@ -3236,6 +3236,9 @@
     <monster name="Chicken" x="2" y="2" z="7" spawntime="30"/>
     <monster name="Chicken" x="-2" y="4" z="7" spawntime="30"/>
   </spawn>
+  <spawn centerx="2924" centery="1153" centerz="7" radius="5">
+    <npc name="global.soft" x="2" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="2974" centery="1154" centerz="7" radius="2">
     <npc name="aracura.promotion" x="0" y="0" z="7" spawntime="60"/>
   </spawn>
