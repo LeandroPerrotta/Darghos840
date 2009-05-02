@@ -68,5 +68,6 @@
 	<talkaction words="/deathlist" event="script" value="deathlist.lua"/>
 	<talkaction words="/pvp" event="script" value="pvp.lua"/>
 	<talkaction words="!q" event="script" value="money.lua"/>
+	<talkaction words="/bless" event="script" value="game/bless.lua"/>
 	<talkaction words="/serverinfo" event="script" value="serverinfo.lua"/>
 </talkactions>
