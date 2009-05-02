@@ -1344,9 +1344,6 @@
     <monster name="Dragon" x="1" y="16" z="6" spawntime="20"/>
     <monster name="Dragon Hatchling" x="1" y="18" z="6" spawntime="60"/>
   </spawn>
-  <spawn centerx="2878" centery="1172" centerz="6" radius="1">
-    <npc name="aracura.armors" x="1" y="0" z="6" spawntime="60"/>
-  </spawn>
   <spawn centerx="1758" centery="1174" centerz="6" radius="5">
     <monster name="Barbarian Bloodwalker" x="3" y="-3" z="6" spawntime="220"/>
     <monster name="Barbarian Bloodwalker" x="1" y="-2" z="6" spawntime="220"/>
@@ -3308,6 +3305,9 @@
   </spawn>
   <spawn centerx="2880" centery="1170" centerz="7" radius="1">
     <npc name="aracura.acessorios" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="2920" centery="1181" centerz="7" radius="1">
+    <npc name="aracura.armors" x="1" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="2858" centery="1182" centerz="7" radius="1">
     <npc name="aracura.food" x="1" y="1" z="7" spawntime="60"/>
