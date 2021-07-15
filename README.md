@@ -6,3 +6,5 @@ Esse projeto foi abortado pois a versão do TFS estava extremamente instavel.<br
 Versão que não foi oficialmente online (ou se foi, foi por pouco tempo).
 
 Não possui sources.
+
+Na sequencia, migramos o motor de jogo do TFS para o OpenTibia (Avesta).
